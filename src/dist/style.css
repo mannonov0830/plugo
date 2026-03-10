@@ -529,9 +529,6 @@ a {
 }
 
 @media (max-width: 480px) {
-  .how {
-    margin-bottom: 400px;
-  }
   .how .featuresFlex {
     display: block;
   }
@@ -579,8 +576,10 @@ a {
     font-size: 15px;
   }
   .how .Unified {
+    width: 97%;
     height: 300px;
     margin-top: 15px;
+    margin-left: 10px;
   }
   .how .Unified h3 {
     padding-top: 200px;
