@@ -1,14 +1,7 @@
 .header {
-  background-image: url("/src/assets/img/heder_bg.avif");
-  background-position: center, center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 1470px;
   margin: 0 auto;
-  height: 1000px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
   .nav {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,13 +11,14 @@
     top: 30px;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%;
+    width: 120%;
     background: rgba(255, 255, 255, 0.05);
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     z-index: 10;
     border-bottom: 1px solid rgba(245, 245, 245, 0.2);
     padding: 10px 10px;
+    margin-bottom: 50px;
     .pluggo_img {
       img {
         width: 150px;
@@ -110,6 +104,34 @@
       }
 
       p {
+        color: #fff;
+      }
+    }
+    .menu {
+      display: none;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    width: 480px;
+  }
+  .header {
+    border-radius: 10px;
+    width: 440px;
+    .nav {
+      border-radius: 10px;
+      width: 380px;
+      padding: 10px 15px;
+      .navText {
+        display: none;
+      }
+      .nav_btn {
+        display: none;
+      }
+      .menu {
+        display: block;
+        font-size: 40px;
         color: #fff;
       }
     }
