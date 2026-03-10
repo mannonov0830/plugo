@@ -127,45 +127,37 @@
 
 @media (max-width: 480px) {
   .home {
-    width: 380px;
+    width: 460px;
     border-radius: 20px;
     height: 800px;
     .home_text {
-      h4{
+      h4 {
         margin: 10px;
         font-size: 16px;
       }
-      h2{
-        font-size: 35px;
+      h2 {
+        font-size: 40px;
         text-align: start;
         padding-left: 12px;
         line-height: 1.5;
       }
-      p{
+      p {
         width: 350px;
         text-align: start;
-        font-size: 16px;
+        font-size: 17px;
         padding-left: 12px;
-        br{
+        br {
           display: none;
         }
       }
-      form{
-        width: 360px;
+      form {
+        width: 440px;
         margin: 0;
         margin-left: 10px;
         // display: none;
         margin-top: 20px;
-        input{
+        input {
           width: 360px;
-        }
-      }
-      .cart_img{
-        margin-left: 12px;
-        margin-top: 30px;
-        img{
-          width: 360px;
-          object-fit: cover;
         }
       }
 
@@ -175,9 +167,10 @@
       .bottom {
         display: none;
       }
-      .cart_img{
-        img{
-          width: 360px;
+      .cart_img {
+        margin-left: 10px;
+        img {
+          width: 440px;
         }
       }
     }
