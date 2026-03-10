@@ -339,6 +339,74 @@ a {
   font-size: 16px;
 }
 
+.faqs {
+  margin-top: 150px;
+}
+.faqs h4 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  width: 100px;
+  background-color: #25222c;
+  border-radius: 30px;
+  padding: 12px 0px;
+  color: #fff;
+  margin-bottom: 30px;
+  margin: 0 auto;
+}
+.faqs h2 {
+  font-size: 52px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 40px;
+}
+.faqs .faq {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.faqs .faq .faq_item {
+  background: #1e1e1e;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 15px;
+  color: white;
+  cursor: pointer;
+}
+.faqs .faq .faq_item .faq_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faqs .faq .faq_item .faq_header h3 {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+}
+.faqs .faq .faq_item .faq_header .icon {
+  font-size: 26px;
+  color: #d9ff00;
+}
+.faqs .faq .faq_item .faq_body {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+  color: #bbb;
+  margin-top: 0;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 1.7;
+}
+.faqs .faq .faq_item.active .faq_body {
+  max-height: 200px;
+  margin-top: 10px;
+}
+
 .testimonial {
   margin-top: 70px;
 }
@@ -491,9 +559,6 @@ a {
 }
 .testimonial .templateImg h4:hover .bottom {
   transform: translateY(-100%);
-}
-.testimonial {
-  margin-bottom: 450px;
 }
 
 .how .featuresFlex {

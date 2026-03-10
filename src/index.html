@@ -235,33 +235,37 @@
       </section>
 
       <section class="testimonial container" id="testimonial">
-        <h4>Testimonial</h4>
-        <h2>
+        <h4 data-aos="fade-up" data-aos-duration="1000">Testimonial</h4>
+        <h2 data-aos="fade-up" data-aos-duration="1200">
           Practical outcomes and financial <br />
           performance in real-world scenarios
         </h2>
-        <p>
+        <p data-aos="fade-up" data-aos-duration="1400">
           Son how companios liko yours have smashod their salos suocess goals
         </p>
 
         <div class="templateFlex">
           <div class="template_numer">
             <div>
-              <h1>$2.5 M</h1>
-              <p>Generate sales</p>
+              <h1 data-aos="fade-up" data-aos-duration="1600">$2.5 M</h1>
+              <p data-aos="fade-up" data-aos-duration="1800">Generate sales</p>
             </div>
             <div>
               <img src="./assets/img/qushtirnoq.avif" alt="" />
             </div>
           </div>
           <div class="template_text">
-            <p>
+            <p data-aos="fade-up" data-aos-duration="1600">
               Using GetCRM CRM is one of the best decisions we've ever made.
               <br />
               We've seen our annual revenue explode, and the outlook just <br />
               keeps getting sunnier.
             </p>
-            <div class="template_img">
+            <div
+              class="template_img"
+              data-aos="fade-up"
+              data-aos-duration="1800"
+            >
               <img src="./assets/img/person1.avif" alt="" />
               <div>
                 <h5>Rick Barker</h5>
@@ -273,22 +277,26 @@
         <div class="templateFlex">
           <div class="template_numer">
             <div>
-              <h1>45%.M</h1>
-              <p>Grew revenue</p>
+              <h1 data-aos="fade-up" data-aos-duration="1600">45%.M</h1>
+              <p data-aos="fade-up" data-aos-duration="1800">Grew revenue</p>
             </div>
             <div>
               <img src="./assets/img/qushtirnoq.avif" alt="" />
             </div>
           </div>
           <div class="template_text">
-            <p>
+            <p data-aos="fade-up" data-aos-duration="1600">
               GetCRM is created for sales people. It's the kind of software that
               <br />
               just works. I don't have to try to make it work. It already does.
               It's <br />
               just perfect.
             </p>
-            <div class="template_img">
+            <div
+              class="template_img"
+              data-aos="fade-up"
+              data-aos-duration="1800"
+            >
               <img src="./assets/img/person2.avif" alt="" />
               <div>
                 <h5>Henry Jacks</h5>
@@ -298,16 +306,16 @@
           </div>
         </div>
         <div class="templateImg">
-          <div class="img_border">
+          <div class="img_border" data-aos="fade-up" data-aos-duration="1200">
             <img src="./assets/img/im5.webp" alt="" />
           </div>
           <div>
-            <h1>
+            <h1 data-aos="fade-up" data-aos-duration="1400">
               Simplify How You <br />
               Sell and Manage <br />
               Digital Products
             </h1>
-            <p>
+            <p data-aos="fade-up" data-aos-duration="1500">
               Digital products are where it's at! There are so many benefits
               <br />
               to selling digital products. It's easy to get started and they can
@@ -315,12 +323,96 @@
               be extremely profitable with smart entrepreneurs and <br />
               creatives.
             </p>
-            <h4>
+            <h4 data-aos="fade-up" data-aos-duration="1600">
               <span class="bottom">Learn More</span>
               <span class="top">Learn More</span>
             </h4>
           </div>
         </div>
+      </section>
+
+      <section class="faqs container">
+        <h4>FAQs</h4>
+        <h2>Questions & Answers</h2>
+
+        <section class="faq">
+          <div class="faq_item">
+            <div class="faq_header">
+              <h3>What makes Zean different from other productivity tools?</h3>
+              <span class="icon">+</span>
+            </div>
+            <p class="faq_body">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+          </div>
+          <div class="faq_item">
+            <div class="faq_header">
+              <h3>Do you offer a free trial?</h3>
+              <span class="icon">+</span>
+            </div>
+
+            <p class="faq_body">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum <br />
+              has been the industry's standard dummy text ever
+            </p>
+          </div>
+          <div class="faq_item">
+            <div class="faq_header">
+              <h3>Can I use Zean with my team?</h3>
+              <span class="icon">+</span>
+            </div>
+            <p class="faq_body">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+          </div>
+          <div class="faq_item">
+            <div class="faq_header">
+              <h3>Does Zean work on mobile?</h3>
+              <span class="icon">+</span>
+            </div>
+
+            <p class="faq_body">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum <br />
+              has been the industry's standard dummy text ever
+            </p>
+          </div>
+          <div class="faq_item">
+            <div class="faq_header">
+              <h3>How secure is my data?</h3>
+              <span class="icon">+</span>
+            </div>
+            <p class="faq_body">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+          </div>
+          <script>
+            const faqItems = document.querySelectorAll(".faq_item");
+
+            faqItems.forEach((item) => {
+              item
+                .querySelector(".faq_header")
+                .addEventListener("click", () => {
+                  item.classList.toggle("active");
+
+                  const icon = item.querySelector(".icon");
+
+                  if (item.classList.contains("active")) {
+                    icon.textContent = "×";
+                  } else {
+                    icon.textContent = "+";
+                  }
+                });
+            });
+          </script>
+        </section>
       </section>
     </main>
 
