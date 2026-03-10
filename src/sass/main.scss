@@ -1,0 +1,28 @@
+// base fayellar
+@use "./base/base";
+@use "./base/reset";
+@use "./base/typography";
+
+// components fayellar
+@use "./components/buttons";
+@use "./components/card";
+@use "./components/navbar";
+
+// layout fayellar
+
+@use "./layout/footer";
+@use "./layout/grid";
+@use "./layout/header";
+
+// pages fayellar
+
+@use "./pages/contact";
+@use "./pages/home";
+
+// themes fayellar
+
+@use "./themes/mixins";
+@use "./themes/variables";
+h1{
+    color: #fff;
+}
