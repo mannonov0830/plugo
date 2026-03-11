@@ -19,7 +19,7 @@ body {
 
 @media (max-width: 480px) {
   .container {
-    width: 360px;
+    width: 370px;
     border: 1px solid red;
     overflow: hidden;
   }
@@ -1007,6 +1007,16 @@ a {
   margin-top: 20px;
 }
 
+@media (max-width: 480px) {
+  .how {
+    width: 370px;
+  }
+  .how .featuresFlex {
+    width: 370px;
+    border: 15px;
+    display: block;
+  }
+}
 .header {
   margin: 0 auto;
 }
@@ -1337,6 +1347,40 @@ a {
   width: 100%;
 }
 
+@media (max-width: 480px) {
+  .home {
+    height: 900px;
+    width: 370px;
+    border-radius: 15px;
+  }
+  .home .home_text h4 {
+    margin: 10px;
+    font-size: 16px;
+  }
+  .home .home_text h2 {
+    font-size: 30px;
+    width: 350px;
+    text-align: start;
+    margin-left: 10px;
+  }
+  .home .home_text h2 br {
+    display: none;
+  }
+  .home .home_text p {
+    width: 340px;
+    text-align: start;
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 1.7;
+  }
+  .home .home_text form {
+    width: 350px;
+  }
+  .home .home_text .cart_img img {
+    width: 345px;
+    margin-left: 10px;
+  }
+}
 h1 {
   color: #fff;
 }

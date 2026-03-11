@@ -125,3 +125,43 @@
   }
 }
 
+@media (max-width:480px) {
+  .home{
+    height: 900px;
+    width: 370px;
+    border-radius: 15px;
+    .home_text{
+      h4{
+        margin: 10px;
+        font-size: 16px;
+      }
+      h2{
+        font-size: 30px;
+        width: 350px;
+        text-align: start;
+        margin-left: 10px;
+        br{
+          display: none;
+
+        }
+      }
+      p{
+        width: 340px;
+        text-align: start;
+        font-size: 16px;
+        margin-left: 10px;
+        line-height: 1.7;
+      }
+      form{
+        width: 350px;
+      }
+      .cart_img{
+        img{
+          width: 345px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  
+}

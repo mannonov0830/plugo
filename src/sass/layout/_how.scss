@@ -189,3 +189,15 @@
   }
 }
 
+@media  (max-width:480px) {
+  .how{
+    width: 370px;
+    .featuresFlex{
+      width: 370px;
+      border: 15px;
+      display: block;
+
+    }
+  }
+  
+}
