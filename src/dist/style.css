@@ -644,6 +644,92 @@ a {
   transform: translateY(-100%);
 }
 
+@media (max-width: 480px) {
+  .testimonial h4 {
+    margin: 10px;
+    font-size: 16px;
+  }
+  .testimonial h2 {
+    font-size: 25px;
+    width: 350px;
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .testimonial h2 br {
+    display: none;
+  }
+  .testimonial p {
+    width: 340px;
+    text-align: start;
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 1.7;
+  }
+  .testimonial .templateFlex {
+    display: flex;
+    margin-top: 20px;
+  }
+  .testimonial .templateFlex .template_numer {
+    gap: 30px;
+    display: flex;
+  }
+  .testimonial .templateFlex .template_numer h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .testimonial .templateFlex .template_numer p {
+    font-size: 30px;
+    margin-top: -10px;
+    text-align: center;
+  }
+  .testimonial .templateFlex .template_text {
+    display: none;
+  }
+  .testimonial .templateFlex .template_img {
+    display: none;
+    margin: 0;
+  }
+  .testimonial .templateImg {
+    display: block;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .testimonial .templateImg .img_border {
+    width: 350px;
+    height: 400px;
+  }
+  .testimonial .templateImg .img_border img {
+    width: 300px;
+  }
+  .testimonial .templateImg h1 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 40px;
+    line-height: 1.5;
+  }
+  .testimonial .templateImg h1 br {
+    display: none;
+  }
+  .testimonial .templateImg h1 {
+    margin-left: 0;
+  }
+  .testimonial .templateImg p {
+    font-size: 16px;
+    text-align: start;
+    margin-top: 20px;
+  }
+  .testimonial .templateImg p br {
+    display: none;
+  }
+  .testimonial .templateImg p {
+    margin-left: 0;
+  }
+  .testimonial .templateImg h4 {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}
 .footer {
   height: 750px;
   background-image: url("/src/assets/img/heder_bg.avif");
