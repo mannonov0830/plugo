@@ -112,3 +112,23 @@
     }
   }
 }
+
+@media (max-width:480px){
+  .header{
+    .nav{
+      width: 370px;
+      border-radius: 15px;
+      .navText{
+        display: none;
+      }
+      .nav_btn{
+        display: none;
+      }
+      .menu{
+        display: block;
+        font-size: 35px;
+        color: #fff;
+      }
+    }
+  }
+}

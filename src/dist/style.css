@@ -17,6 +17,13 @@ body {
   padding: 0;
 }
 
+@media (max-width: 480px) {
+  .container {
+    width: 360px;
+    border: 1px solid red;
+    overflow: hidden;
+  }
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -1095,6 +1102,23 @@ a {
   display: none;
 }
 
+@media (max-width: 480px) {
+  .header .nav {
+    width: 370px;
+    border-radius: 15px;
+  }
+  .header .nav .navText {
+    display: none;
+  }
+  .header .nav .nav_btn {
+    display: none;
+  }
+  .header .nav .menu {
+    display: block;
+    font-size: 35px;
+    color: #fff;
+  }
+}
 .features .featuresFlex {
   margin-top: 70px;
   display: flex;
