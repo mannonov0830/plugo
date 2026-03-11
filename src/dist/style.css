@@ -490,6 +490,33 @@ a {
   margin-top: 10px;
 }
 
+@media (max-width: 480px) {
+  .faqs {
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
+  .faqs h4 {
+    margin: 10px;
+    font-size: 16px;
+    margin: 0;
+    margin-left: 10px;
+  }
+  .faqs h2 {
+    font-size: 25px;
+    width: 350px;
+    text-align: start;
+    margin-left: 10px;
+  }
+  .faqs h2 br {
+    display: none;
+  }
+  .faqs .faq {
+    width: 350px;
+  }
+  .faqs .faq .faq_item .faq_header h3 {
+    font-size: 16px;
+  }
+}
 .testimonial {
   margin-top: 70px;
 }

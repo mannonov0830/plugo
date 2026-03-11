@@ -24,10 +24,10 @@
     margin-top: 40px;
   }
   .faq {
-      width: 800px;
-      margin: 0 auto;
-      margin-top: 70px;
-      .faq_item {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+    .faq_item {
       background: #1e1e1e;
       border-radius: 14px;
       padding: 20px;
@@ -42,7 +42,7 @@
 
         h3 {
           font-size: 22px;
-          font-family: "Inter",sans-serif;
+          font-family: "Inter", sans-serif;
         }
 
         .icon {
@@ -59,7 +59,7 @@
         margin-top: 0;
         font-size: 17px;
         font-weight: 500;
-        font-family: "Inter",sans-serif;
+        font-family: "Inter", sans-serif;
         line-height: 1.7;
       }
 
@@ -67,6 +67,38 @@
         .faq_body {
           max-height: 200px;
           margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .faqs {
+    margin-bottom: 40px;
+    margin-top: 50px;
+    h4 {
+      margin: 10px;
+      font-size: 16px;
+      margin: 0;
+      margin-left: 10px;
+    }
+    h2 {
+      font-size: 25px;
+      width: 350px;
+      text-align: start;
+      margin-left: 10px;
+      br {
+        display: none;
+      }
+    }
+    .faq {
+      width: 350px;
+      .faq_item {
+        .faq_header {
+          h3 {
+            font-size: 16px;
+          }
         }
       }
     }
