@@ -1221,6 +1221,60 @@ a {
   width: 650px;
 }
 
+@media (max-width: 480px) {
+  .features .featuresFlex {
+    display: block;
+  }
+  .features .featuresFlex h4 {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .features .featuresFlex h2 {
+    font-size: 25px;
+    width: 350px;
+    margin-left: 10px;
+    line-height: 1.5;
+  }
+  .features .featuresFlex h2 br {
+    display: none;
+  }
+  .features .featuresFlex .top_left {
+    display: none;
+  }
+  .features .featuresFlex p {
+    width: 340px;
+    text-align: start;
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 1.7;
+  }
+  .features .featuresFlex p br {
+    display: none;
+  }
+  .features .featuresFlex p {
+    margin-top: 20px;
+  }
+  .features .featuresFlexx {
+    display: block;
+  }
+  .features .featuresFlexx .gremText .grem .grem_img {
+    gap: 20px;
+    margin-left: 10px;
+  }
+  .features .featuresFlexx .gremText .grem .grem_img h3 {
+    font-size: 30px;
+  }
+  .features .featuresFlexx .gremText .grem .grem_img p {
+    font-size: 16px;
+  }
+  .features .featuresFlexx .gremText .grem .grem_img p br {
+    display: block;
+  }
+  .features .featuresFlexx .gremimg img {
+    width: 350px;
+    margin-left: 10px;
+  }
+}
 .home {
   background-image: url("/src/assets/img/heder_bg.avif");
   background-position: center, center;
