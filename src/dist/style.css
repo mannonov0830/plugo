@@ -422,6 +422,34 @@ a {
   transform: translateY(-100%);
 }
 
+@media (max-width: 480px) {
+  .cartt {
+    width: 360px;
+    height: 350px;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .cartt h2 {
+    font-size: 25px;
+    margin-top: 0px;
+    text-align: start;
+    margin-left: 10px;
+  }
+  .cartt h2 br {
+    display: none;
+  }
+  .cartt p {
+    font-size: 16px;
+    text-align: start;
+    margin-left: 10px;
+  }
+  .cartt p br {
+    display: none;
+  }
+  .cartt h4 {
+    margin-left: 10px;
+  }
+}
 .faqs {
   margin-top: 150px;
 }

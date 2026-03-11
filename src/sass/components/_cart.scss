@@ -81,3 +81,33 @@
     }
   }
 }
+
+@media (max-width:480px) {
+  .cartt{
+    width: 360px;
+    height: 350px;
+    background-size: cover;
+    object-fit: cover;
+    h2{
+      font-size: 25px;
+      margin-top: 0px;
+      text-align: start;
+      margin-left: 10px;
+      br{
+        display: none;
+      }
+    }
+    p{
+      font-size: 16px;
+      text-align: start;
+      margin-left: 10px;
+      br{
+        display: none;
+      }
+
+    }
+    h4{
+      margin-left: 10px;
+    }
+  }
+}
