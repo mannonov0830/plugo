@@ -112,29 +112,3 @@
     }
   }
 }
-@media (max-width: 480px) {
-  .container {
-    width: 480px;
-  }
-  .header {
-    border-radius: 10px;
-    width: 480px;
-    .nav {
-      border-radius: 10px;
-      width: 460px;
-      padding: 10px 15px;
-      margin-left: -6px;
-      .navText {
-        display: none;
-      }
-      .nav_btn {
-        display: none;
-      }
-      .menu {
-        display: block;
-        font-size: 40px;
-        color: #fff;
-      }
-    }
-  }
-}
