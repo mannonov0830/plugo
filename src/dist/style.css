@@ -959,6 +959,66 @@ a {
   color: #fff;
 }
 
+@media (max-width: 480px) {
+  .footer {
+    padding: 0;
+    width: 360px;
+    margin-top: 0;
+    border-radius: 15px;
+    height: 1250px;
+  }
+  .footer .footerFlex {
+    display: block;
+  }
+  .footer .footerFlex h2 {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .footer .footerFlex h2 br {
+    display: none;
+  }
+  .footer .footerFlex .topp {
+    display: none;
+  }
+  .footer .footerFlex h4 {
+    margin-left: 10px;
+  }
+  .footer .footerFlex .pluggoText {
+    display: block;
+  }
+  .footer .footerFlex .pluggoText ul {
+    margin-left: -60px;
+  }
+  .footer .pul_img {
+    display: block;
+    top: -50px;
+  }
+  .footer .pul_img img {
+    margin: 0 auto;
+    margin-left: 100px;
+    width: 150px;
+    margin-bottom: 30px;
+  }
+  .footer .pul_img .tiweter {
+    margin-left: 30px;
+  }
+  .footer .texT_flex {
+    display: block;
+  }
+  .footer .texT_flex h4 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .footer .texT_flex ul {
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+  .footer .texT_flex ul li {
+    text-align: center;
+  }
+}
 .how .featuresFlex {
   margin-top: 70px;
   display: flex;
